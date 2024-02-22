@@ -14,23 +14,28 @@
 }
 
 .navbar{
-    width: 88%;
+    width: 100%;
     margin:auto;
     padding: 15px 0;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    background-color: rgb(7, 0, 20);
 }
 
 .navbar ul {
     list-style: none;
     padding: 0;
     display: flex;
-    justify-content: space-around ; /* Pour aligner horizontalement */
+    justify-content: space-around ; 
 }
 
 .navbar ul li {
-    margin: 0 89px; /* Ajouter de l'espace entre les éléments */
+    margin: 0 89px; 
+}
+
+.navbar ul li a:hover {
+    text-decoration: underline; 
 }
 
 
@@ -41,7 +46,7 @@
 
 .navbar ul li a{
     text-decoration: none;
-    color: rgb(248, 3, 170);
+    color: rgb(247, 5, 138);
     font-size: 25px;
 }
 .contenus{
@@ -55,7 +60,7 @@
         margin-left: auto;
         margin-right: auto;
         text-align: center;
-        color: rgb(248, 7, 167);
+        color: rgb(247, 5, 138);
         font-size: 25px;
         margin-bottom: 20px; 
         margin-top: 0; 
@@ -95,4 +100,87 @@
 .image-container img {
     width: 250px; 
     height: auto; 
+}
+
+.page-suivante {
+    position: absolute;
+    bottom: 2px;
+    right: 2px;
+}
+
+.bouton-suivant {
+    padding: 5px 5px;
+    background-color: rgb(248, 7, 184);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.bouton-suivant:hover {
+    background-color: rgb(248, 7, 184);
+}
+
+/* Styles spécifiques pour la page About Me */
+.ArrierePlan {
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://getwallpapers.com/wallpaper/full/5/5/b/984532-new-color-hd-wallpaper-2560x1440.jpg);
+    background-size: cover;
+    position: relative;
+    display: flex; /* Utilisation de flexbox */
+    justify-content: center; /* Centrer horizontalement */
+    align-items: center; /* Centrer verticalement */
+}
+
+.about-me-container {
+    display: flex;
+    justify-content: flex-end; /* Aligner à droite */
+    max-width: 800px; /* Largeur maximale du contenu */
+}
+
+.about-me {
+    text-align: center;
+    margin-right: 20px; /* Espacement entre les éléments */
+    margin-top: 10px;
+}
+
+.about-me-photo {
+    border-radius: 50%; /* Créer une forme de cercle */
+    width: 310px; /* Taille de l'image */
+    height: 390px; /* Taille de l'image */
+    margin-right: 500px;
+}
+
+.about-me-content {
+    text-align: left;
+    align-self: center; 
+    margin-left: 40px; 
+}
+
+.about-me h1 {
+    font-size: 80px; 
+    color:  rgb(248, 7, 184);; /* Changer la couleur du texte en magenta */
+}
+
+
+.page-suivante {
+    text-align: center;
+}
+
+.bouton-suivant {
+    padding: 5px 5px;
+    background-color: rgb(248, 7, 184);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.bouton-suivant:hover {
+    background-color: rgb(248, 7, 184);
 }
