@@ -135,36 +135,47 @@
     align-items: center; /* Centrer verticalement */
 }
 
+/*.about-me-container {
+    display: flex;
+    justify-content: flex-end; /* Aligner à droite 
+    max-width: 800px;  Largeur maximale du contenu 
+    align-items: flex-start; /* Aligner les éléments en haut */
+
 .about-me-container {
     display: flex;
     justify-content: flex-end; /* Aligner à droite */
-    max-width: 800px; /* Largeur maximale du contenu */
+    max-width: 850px; /* Largeur maximale du contenu */
+    align-items: flex-start; /* Aligner les éléments en haut */
+    margin-bottom: 40px; /* Déplacer légèrement vers le haut */
+
 }
 
 .about-me {
     text-align: center;
     margin-right: 20px; /* Espacement entre les éléments */
-    margin-top: 10px;
 }
 
 .about-me-photo {
     border-radius: 50%; /* Créer une forme de cercle */
     width: 310px; /* Taille de l'image */
     height: 390px; /* Taille de l'image */
-    margin-right: 500px;
+    margin-left: -60px;
 }
 
 .about-me-content {
     text-align: left;
-    align-self: center; 
-    margin-left: 40px; 
 }
 
 .about-me h1 {
-    font-size: 80px; 
-    color:  rgb(248, 7, 184);; /* Changer la couleur du texte en magenta */
+    font-size: 75px; /* Augmenter la taille de la police */
+    color:rgb(189, 2, 139); /* Changer la couleur du texte en magenta */
 }
 
+.about-me-content p {
+    margin-top: 90px; /* Descendre en bas*/
+    font-size: 27px;
+    color: rgb(238, 125, 207); 
+}
 
 .page-suivante {
     text-align: center;
