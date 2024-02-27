@@ -123,3 +123,16 @@
     background-color: rgb(248, 7, 184);
 }
 
+@keyframes textAnimation {
+    0% { color: #1eff00; }
+    25% { color: #ff0084; }
+    50% { color: #0051ff; }
+    75% { color: #d0e10e; }
+    89% { color: #e077fb; }
+    90% { color: #08f5e1; }
+    100% { color: #ff6a00; }
+}
+
+.animated-text {
+    animation: textAnimation 1s infinite;
+}
