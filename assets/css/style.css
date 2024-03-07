@@ -88,7 +88,7 @@
 
 .menu-items p {
     font-size: 30px;
-    color: rgb(255, 255, 255);
+    color: rgb(238, 191, 240);
     margin-top: 39px;
 }
 .image-container {
@@ -125,14 +125,20 @@
 
 @keyframes textAnimation {
     0% { color: #1eff00; }
-    25% { color: #ff0084; }
-    50% { color: #0051ff; }
-    75% { color: #d0e10e; }
+    25% { color: #f65fad; }
+    50% { color: #4b82fb; }
+    75% { color: #f303b3; }
     89% { color: #e077fb; }
     90% { color: #08f5e1; }
-    100% { color: #ff6a00; }
+    100% { color: #f88737; }
 }
 
 .animated-text {
     animation: textAnimation 1s infinite;
+}
+
+.navbar ul li img {
+    width: 30px; /* Ajustez la taille selon vos besoins */
+    height: auto; /* Pour maintenir le ratio */
+    margin-right: 5px; /* Espace entre l'icône et le texte du lien */
 }
