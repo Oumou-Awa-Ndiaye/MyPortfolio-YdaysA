@@ -14,7 +14,7 @@
       padding: 0;
     }
     .container {
-      max-width: 800px;
+      max-width: 900px;
       margin: 20px auto;
       background-color: #010d11;
       border-radius: 10px;
@@ -41,7 +41,7 @@
       align-items: center;
     }
     li img {
-      width: 60px; /* Ajustez la taille de l'image selon vos préférences */
+      width: 70px; /*Pour  Ajustez la taille de l'image */
       height: auto;
       margin-right: 20px;
       border-radius: 5px;
@@ -56,11 +56,31 @@
     li a:hover {
       text-decoration: underline;
     }
+    .page-suivante {
+    position: absolute;
+    bottom: 2px;
+    right: 2px;
+}
+
+.bouton-suivant {
+    padding: 5px 5px;
+    background-color: rgb(248, 7, 184);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.bouton-suivant:hover {
+    background-color: rgb(248, 7, 184);
+}
   </style>
 </head>
 <body>
   <div class="container">
-    <h1>Vibes AFRO - Playlist</h1>
+    <h1>Vibes AFRO - MiniPlaylist</h1>
     <p>Plongez dans l'atmosphère envoûtante avec cette sélection de morceaux soigneusement choisis pour accompagner vos soirées.</p>
     <ul>
       <li>
@@ -72,16 +92,20 @@
         <span>2.</span> <a href="https://www.youtube.com/watch?v=j1n8B6J1JF8&list=PLAx-80jpjuo8rcJfEMc4MIJnNdR71JvNz&index=45&pp=gAQBiAQB8AUB">TitoM & Yuppe - Tshwala Bam</a>
       </li>
       <li>
-        <span>3.</span> <a href="lien_youtube">No Diggity - Chet Faker</a>
+        <img src="imagePerso/image Monalisa.jpg" alt="Image Morceau 3">
+        <span>3.</span> <a href="https://www.youtube.com/watch?v=to8nQNGarRw&list=PLAx-80jpjuo8rcJfEMc4MIJnNdR71JvNz&index=23&pp=gAQBiAQB8AUB">LOJAY X SARZ - MONALISA</a>
     </li>
       <li>
-        <span>4.</span> <a href="lien_youtube">The Less I Know The Better - Tame Impala</a>
+        <img src="imagePerso/image Tyla.jpg" alt="Image Morceau 4">
+        <span>4.</span> <a href="https://www.youtube.com/watch?v=XoiOOiuH8iI&list=PLJYyuMTDI-ie5hdkH6z2BakZac5nf5x8W&index=1&pp=iAQB8AUB">Tyla - Water</a>
     </li>
       <li>
-        <span>5.</span> <a href="lien_youtube">Breezeblocks - Alt-J</a>
+        <img src="imagePerso/img Ayra Star.jpg" alt="Image Morceau 5">
+        <span>5.</span> <a href="https://www.youtube.com/watch?v=KYn3k8dpRJI&list=PLJYyuMTDI-ie5hdkH6z2BakZac5nf5x8W&index=29&pp=iAQB8AUB">Ayra Star - Sability</a>
     </li>
       <li>
-        <span>6.</span><a href="lien_youtube">Electric Feel - MGMT</a>
+        <img src="imagePerso/img Rema.avif" alt="Image Morceau 6">
+        <span>6.</span><a href="https://www.youtube.com/watch?v=dNt1QR1ecuM&list=PLJYyuMTDI-ie5hdkH6z2BakZac5nf5x8W&index=4&pp=iAQB8AUB">Rema - Charm</a>
     </li>
       <li>
         <span>7.</span> <a href="lien_youtube">Teardrop - Massive Attack</a>
@@ -95,9 +119,12 @@
       <li>
         <span>10.</span> <a href="lien_youtube">Coffee - Sylvan Esso</a>
     </li>
-      <!-- Ajoutez des liens YouTube et des images pour le reste de la playlist -->
+      <!--Le reste des musiques que je veux ajouter -->
     </ul>
     <p>Plongez dans cette playlist et laissez-vous emporter par les sonorités envoûtantes.</p>
   </div>
+  <div class="page-suivante">
+    <a href="Dev.html" class="bouton-suivant">NextPage</a>
+</div> 
 </body>
 </html>

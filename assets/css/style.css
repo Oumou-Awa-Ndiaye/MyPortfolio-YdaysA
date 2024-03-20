@@ -54,17 +54,13 @@
     position:absolute;
     top: 30%;
 }
-.col-gauche {
-    
-    
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-        color: rgb(247, 5, 138);
-        font-size: 25px;
-        margin-bottom: 20px; 
-        margin-top: 0; 
-    
+.text {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: rgb(247, 5, 138);
+    font-size: 25px;
+    margin-top: 0; 
 };
 
 .col-droite{
@@ -81,16 +77,20 @@
     margin: 15px;
 }
 .menu-items {
+    text-decoration: none;
+    color: rgb(247, 5, 138);
+    font-size: 25px;
     display: flex;
     justify-content: space-around; 
     margin-top: 100px; 
 }
 
-.menu-items p {
+/* .menu-items p {
     font-size: 30px;
     color: rgb(238, 191, 240);
     margin-top: 39px;
-}
+} */
+
 .image-container {
     display: flex;
     justify-content: space-around;
