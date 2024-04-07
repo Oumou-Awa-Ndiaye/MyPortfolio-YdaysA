@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url(https://getwallpapers.com/wallpaper/full/5/5/b/984532-new-color-hd-wallpaper-2560x1440.jpg);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* 100% de la hauteur de la fenêtre visible */
+        }
+
+        .container {
+            width: 90%; 
+            max-width: 900px; 
+            background-color: #010d11;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgb(249, 64, 156);
+        }
+
+        h1 {
+            text-align: center;
+            color: #ec0e93; 
+            font-size: 50px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 7px;
+            color: #f82169;
+            font-size: 25px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        textarea {
+            resize: vertical;
+        }
+
+        button[type="submit"] {
+            background-color: #f90fa7;
+            color: #f7eff4;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 20px;
+        }
+
+        button[type="submit"]:hover {
+            background-color: #690138;
+        }
+
+        .social-links {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .social-links span {
+            display: inline-block;
+            margin-right: 20px;
+            font-size: 30px; /* Taille du texte */
+        }
+
+        /* Couleur du texte pour Instagram */
+        .social-links span.instagram {
+            color: rgb(127, 22, 127);
+        }
+
+        /* Couleur du texte pour Snapchat */
+        .social-links span.snapchat {
+            color: rgb(236, 236, 11);
+        }
+
+        /* Taille des images */
+        .social-links img {
+            width: 50px; /* Largeur des images */
+            height: 50px; /* Hauteur des images */
+            margin-right: 5px; /* Marge entre l'image et le texte */
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>N'hésitez pas à me contacter !</h1>
+        <form id="contact-form">
+            <div class="form-group">
+                <label for="name">Nom :</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit">Envoyer</button>
+        </form>
+
+        <div class="social-links">
+            <span class="instagram"><img src="imagePerso/insta logo.webp" alt="Instagram"> omoueva_nd </span>
+            <span class="snapchat"><img src="imagePerso/logo snap.avif" alt="Snapchat"> oumouawa_nd </span>
+        </div>
+    </div>
+    
+</body>
+</html>
