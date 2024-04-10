@@ -11,20 +11,3 @@ document.addEventListener("DOMContentLoaded", function() {
     setInterval(scrollToNextPage, 3000);
 });
 
-// Récupérer le formulaire
-const form = document.getElementById('contact-form');
-
-// Écouter l'événement de soumission du formulaire
-form.addEventListener('submit', function(event) {
-    // Empêcher le comportement par défaut du formulaire
-    event.preventDefault();
-    
-    // Récupérer l'élément du message de remerciement
-    const thankYouMessage = document.getElementById('thank-you');
-    
-    // Masquer le formulaire
-    form.style.display = 'none';
-    
-    // Afficher le message de remerciement
-    thankYouMessage.style.display = 'block';
-});
