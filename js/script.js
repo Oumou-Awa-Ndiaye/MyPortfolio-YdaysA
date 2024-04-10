@@ -10,3 +10,5 @@ document.addEventListener("DOMContentLoaded", function() {
     // Appelle la fonction pour faire défiler la page toutes les 3 secondes
     setInterval(scrollToNextPage, 3000);
 });
+
+
