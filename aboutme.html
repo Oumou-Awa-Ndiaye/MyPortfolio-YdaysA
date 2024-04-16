@@ -69,6 +69,33 @@
 .next-button:hover {
     background-color: rgb(248, 7, 184);
 }
+
+.navigation-buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.navigation-button {
+    padding: 10px;
+    background-color: #f63576;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 24px; 
+    transition: background-color 0.3s ease;
+    display: inline-block; 
+}
+
+.navigation-button:hover {
+    background-color: #f5185d;
+}
+
+.arrow {
+    margin-right: 5px;
+}
+
+
     </style>
 </head>
 <body>
@@ -86,6 +113,12 @@
             <a href="Dev.html" class="next-button">Next Page</a>
         </div>  
     </div>
+    <div class="navigation-buttons">
+        <a href="index.html" class="navigation-button">
+            <span class="arrow">&larr;</span>
+        </a>
+    </div> 
+    
     <script src="js/script.js"></script>
 </body>
 </html>
